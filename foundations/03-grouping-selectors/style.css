@@ -1,0 +1,13 @@
+.encouraging {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff
+}
+
+.persuasive {
+  background-color: hsl(55, 100%, 50%);
+}
+
+.encouraging, .persuasive {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
