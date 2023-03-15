@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -44,5 +48,14 @@ a {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  display: flex;
+  gap: 16px;
   list-style-type: none;
 }
+
+/* This solution uses margin instead of flex 
+for positioning right and left side of header, 
+so it doesn't need additional HTML header wrappers */
